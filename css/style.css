@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root{
+  font-size: 64.5%;
+  font-family: sans-serif;
+}
+
+body,html{
+  font-size: 1rem;
+  background-color: #f7edec;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#title{
+-webkit-box-shadow: 0px 0px 42px 0px rgba(133,126,133,1);
+-moz-box-shadow: 0px 0px 42px 0px rgba(133,126,133,1);
+-ms-box-shadow: 0px 0px 42px 0px rgba(133,126,133,1);
+-o-box-shadow: 0px 0px 42px 0px rgba(133,126,133,1);
+box-shadow: 0px 0px 42px 0px rgba(133,126,133,1);
+}
+#title h1{
+ font-family: 'PT Serif', serif;
+ color: #fafafa;
+ width: 100vw;
+ height: 50%;
+ padding: 10rem;
+ margin-top: 6rem;
+ background-color: #e8352c;
+ text-align: center;
+}
+#title h1{
+  font-size: 6rem;
+  font-weight: 400;
+}
+#title h5{
+  font-size: 2rem;
+  margin-top: -8rem;
+  text-align: center;
+  color: #fafafa;
+}
+#main{
+  margin: 6rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 4.3rem;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 7rem;
+}
+#img-caption{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 7rem;
+}
+.line{
+ width: 80rem;
+ color: #333;
+ height: auto;
+ margin: auto;
+ margin-top: 8rem;
+}
+#milestones{
+  line-height: 3.5rem;
+  text-align: justify;
+  margin-top: 2.5rem;
+}
+#timeline{
+color: #e8352c;
+padding: 1.5rem;
+margin: .5rem;
+font-size: 1.7rem;
+text-align: left;
+position: relative;
+left: -3rem;
+}
+ul li{
+  font-size: 1.6rem;
+  margin: .5rem;
+  text-align: left;
+}
+footer{
+  margin: 3.6rem 0 0 0;
+}
+footer h2{
+  font-size: 2.5rem;
+  color: #62656a;
+}
+footer a:link, a:focus{
+  color: #e8352c;
+}
+footer a:hover{
+  color: #fb564e;
+  cursor: pointer;
+}
+
+
+/*================ Media Queries =================*/
+
+@media (max-width: 500px){
+  #timeline{
+  font-size: 1.4rem;
+  }
+  #title h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+  #title h5{
+    font-size: 1.2rem;
+    color: #fafafa;
+  }
+  footer h2{
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+  }
+  ul li{
+    font-size: 1.3rem;
+    text-align: left;
+  }
+}
+
+@media (max-width:300px){
+  .line{
+    display: none;
+  }
+
+  #timeline{
+  font-size: 1rem;
+  }
+  #title h1{
+    font-size: 3.6rem;
+    font-weight: 400;
+  }
+  #title h5{
+    font-size: 1rem;
+    color: #fafafa;
+  }
+  footer h2{
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+  }
+  ul li{
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1rem;
+    text-align: justify;
+  }
+  #img-caption{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 8rem;
+  }
+}
